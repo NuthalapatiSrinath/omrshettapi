@@ -1,0 +1,13 @@
+.OmrContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 0.3in 0.3in 0.32in 0.3in;
+  }
+}

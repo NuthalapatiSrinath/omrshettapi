@@ -1,0 +1,12 @@
+.MainModal {
+    position: fixed;
+    height: max(100vh, 100%);
+    width: max(100vw, 100%);
+    top: 0;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+
+}

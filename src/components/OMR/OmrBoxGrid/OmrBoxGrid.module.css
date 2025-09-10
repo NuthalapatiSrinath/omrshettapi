@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  border: var(--OMR_Border_Width) solid #e6007e;
+  width: fit-content;
+}
+
+.box {
+  width: 20px;
+  height: 28px;
+  border-left: var(--OMR_Border_Width) solid #e6007e;
+}
+
+.box:first-child {
+  border-left: none;
+}

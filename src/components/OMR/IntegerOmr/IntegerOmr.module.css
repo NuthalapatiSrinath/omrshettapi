@@ -1,0 +1,45 @@
+.integerOmr {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  border: var(--OMR_Border_Width) solid var(--OMR_Color);
+  width: 146px;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem;
+}
+
+.questionNumber {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  margin-left: 0.5rem;
+  align-self: flex-start;
+}
+
+.columns {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.bubbleGrid {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: 0.2rem;
+  margin-left: 0.2rem;
+}
+
+.bubbleColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+@media print {
+  .integerOmr {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}

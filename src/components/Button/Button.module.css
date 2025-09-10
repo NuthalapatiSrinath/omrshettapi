@@ -1,0 +1,32 @@
+.primary {
+    background-color: var(--Primary_Color);
+    color: #ffffff;
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    
+    transition: 0.3s ease;
+}
+
+.primary:hover {
+    opacity: 0.9;
+}
+
+
+.secondary {
+    background-color: var(--White_Color);
+    color: var(--Primary_Color);
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    border: 2px solid var(--Primary_Color);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.secondary:hover {
+    background-color: rgba(8, 129, 202, 0.1);
+    /* optional hover effect */
+}

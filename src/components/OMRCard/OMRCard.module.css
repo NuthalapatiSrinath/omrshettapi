@@ -1,0 +1,35 @@
+.card {
+    background-color: var(--White_Color);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    width: 245px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.label {
+    font-size: 16.8px;
+    font-weight: 400;
+    text-align: left; /* align to left */
+    margin-bottom: 1rem;
+    padding-left: 0.2rem; /* small left padding to match visual */
+}
+
+
+.buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    /* keeps them on opposite sides */
+    padding: 0 0.25rem;
+    /* adds breathing room left/right */
+    gap: 0.5rem;
+    /* spacing between buttons */
+    margin-top: 1rem;
+}

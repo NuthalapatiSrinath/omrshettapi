@@ -1,0 +1,28 @@
+.McqOptions {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  border: var(--OMR_Border_Width) solid var(--OMR_Color);
+  padding: 0.2rem 0.3rem;
+  width: 146px;
+}
+
+.questionNumber {
+  font-weight: 500;
+  font-size: 11px;
+  color: black;
+  min-width: 22px;
+  margin-right: 0.15rem;
+}
+
+.options {
+  display: flex;
+  gap: 0.2rem;
+}
+
+@media print {
+  .McqOptions {
+    page-break-inside: always;
+    break-inside: always;
+  }
+}

@@ -1,0 +1,58 @@
+.OmrHeaderContainer {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.rightSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.rightTopSection {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.SignaturesBox {
+  display: flex;
+  gap: 0.25rem;
+  height: 100%;
+}
+
+.OmrHeaderContainer {
+  display: flex;
+  gap: 0.25rem;
+  width: 100%;
+}
+
+.rightSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.rightTopSection {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.SignaturesBox {
+  display: flex;
+  gap: 0.25rem;
+  height: 100%;
+}
+
+.rightBottomSection {
+  width: 100%;
+  display: flex;
+  gap: 0.25rem;
+}

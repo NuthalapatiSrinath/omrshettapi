@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: var(--Font_Family);
+}
+
+.noScroll {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.ToastContainer {
+  z-index: 999999;
+}

@@ -1,0 +1,64 @@
+:root {
+  --Text_Color_RGB: 51, 51, 51;
+  /* Based on #333 */
+}
+
+.InputBox {
+  position: relative;
+}
+
+.label {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: rgba(var(--Text_Color_RGB), 0.6);
+  margin-bottom: 0.25rem;
+  margin-left: 0.75rem;
+  display: block;
+}
+
+.InputBox:focus-within label {
+  color: var(--Primary_Color);
+  font-weight: 500;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.75rem;
+  border: none;
+  margin-bottom: 1.5rem;
+  outline: none;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+  appearance: none;
+  transition: all 200ms;
+}
+
+.InputBox:focus-within > .input {
+  box-shadow: 0px 0px 6px 2px rgba(from var(--Primary_Color) r g b / 0.5);
+}
+
+.error > .input {
+  box-shadow: 0px 0px 6px 2px rgba(from var(--Error_Color) r g b / 0.5) !important;
+}
+.error > .label {
+  color: var(--Error_Color);
+}
+
+.input {
+  box-shadow: 0px 0px 2px 0px rgba(from var(--Text_Color) r g b / 0.5);
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.input::placeholder {
+  color: rgba(var(--Text_Color_RGB), 0.4);
+}

@@ -1,0 +1,10 @@
+.container {
+  border: var(--OMR_Border_Width) solid var(--OMR_Color);
+  padding: 8px;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: var(--OMR_Color);
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+}

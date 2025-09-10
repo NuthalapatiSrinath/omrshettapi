@@ -1,0 +1,52 @@
+.dashboard {
+    background-color:  var(--Utility_Color1) ;
+    padding: 1.5rem;
+    border-radius: 2rem;
+}
+.totalcontainer{
+    display: flex;
+    padding:2rem;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.left {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.right {}
+
+.generateBtn {
+    background-color: #9333ea;
+    color: #ffffff;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+}
+
+.footer {
+    text-align: right;
+    margin-top: 1.5rem;
+}
+
+.viewAll {
+    font-size: 0.95rem;
+    color: var(--Primary_Color);
+    cursor: pointer;
+}

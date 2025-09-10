@@ -1,0 +1,28 @@
+.SearchBar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px 0px rgba(from var(--Text_Color) r g b / 5%);
+    min-width:395px;
+    background-color:var(--Background_Color);
+}
+
+input::placeholder {
+    color: rgba(from var(--Text_Color) r g b / 30%);
+    /* Or use a hex value like #9333ea */
+    opacity: 1;
+    /* Make sure it’s fully visible */
+}
+.input {
+    flex: 1;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    outline: none;
+    font-size: 12.64px;
+  
+}

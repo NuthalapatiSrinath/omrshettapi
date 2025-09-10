@@ -1,0 +1,75 @@
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.topRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.keyUpload {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.fileLabel {
+    display: inline-block;
+    padding: 8px 12px;
+    border: 1px dashed #888;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.fileLabel input[type="file"] {
+    display: block;
+    margin-top: 8px;
+}
+
+.summary {
+    margin-top: 16px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.tableWrap {
+    margin-top: 18px;
+    overflow-x: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.correct {
+    background-color: #dff0d8;
+}
+
+.wrong {
+    background-color: #f8d7da;
+}
+
+.unanswered {
+    background-color: #fff3cd;
+}
+
+.no-key {
+    background-color: #e2eaf7;
+}
+
+.error {
+    color: #9a1f1f;
+    margin-top: 8px;
+}
